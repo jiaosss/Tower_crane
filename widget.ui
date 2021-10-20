@@ -1011,7 +1011,7 @@
         </font>
        </property>
        <property name="text">
-        <string>K（不均衡系数，一般取1.3）</string>
+        <string>K（不均衡系数，默认取1.3）</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="lineEdit_k">
@@ -1040,7 +1040,7 @@
         </font>
        </property>
        <property name="text">
-        <string>bi（工作班次，八小时一班）</string>
+        <string>bi（工作班次，八小时一班，默认取1）</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="lineEdit_bi">
@@ -1050,16 +1050,6 @@
          <y>140</y>
          <width>51</width>
          <height>21</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QComboBox" name="comboBox">
-       <property name="geometry">
-        <rect>
-         <x>380</x>
-         <y>20</y>
-         <width>69</width>
-         <height>22</height>
         </rect>
        </property>
       </widget>
@@ -1357,7 +1347,7 @@
      <widget class="QLabel" name="label_29">
       <property name="geometry">
        <rect>
-        <x>90</x>
+        <x>40</x>
         <y>280</y>
         <width>21</width>
         <height>21</height>
@@ -1376,9 +1366,9 @@
      <widget class="QLineEdit" name="lineEdit_ni">
       <property name="geometry">
        <rect>
-        <x>120</x>
+        <x>70</x>
         <y>280</y>
-        <width>51</width>
+        <width>91</width>
         <height>21</height>
        </rect>
       </property>
@@ -1386,7 +1376,7 @@
      <widget class="QLabel" name="label_31">
       <property name="geometry">
        <rect>
-        <x>350</x>
+        <x>310</x>
         <y>280</y>
         <width>21</width>
         <height>21</height>
@@ -1405,9 +1395,9 @@
      <widget class="QLineEdit" name="lineEdit_qi1">
       <property name="geometry">
        <rect>
-        <x>380</x>
+        <x>340</x>
         <y>280</y>
-        <width>51</width>
+        <width>101</width>
         <height>21</height>
        </rect>
       </property>
@@ -1415,7 +1405,7 @@
      <widget class="QLabel" name="label_33">
       <property name="geometry">
        <rect>
-        <x>600</x>
+        <x>590</x>
         <y>280</y>
         <width>21</width>
         <height>21</height>
@@ -1434,9 +1424,9 @@
      <widget class="QLineEdit" name="lineEdit_qi2">
       <property name="geometry">
        <rect>
-        <x>630</x>
+        <x>620</x>
         <y>280</y>
-        <width>51</width>
+        <width>101</width>
         <height>21</height>
        </rect>
       </property>
@@ -1789,14 +1779,14 @@ p, li { white-space: pre-wrap; }
 本软件仅供中国建筑一局（集团）有限公司华南区域公司内部使用，切勿外传。
 
 使用说明：
-    1、在工程量选项卡里输入工程量，单位为吨或件，根据实际填写，没有的填写0.
+    1、在工程量选项卡里输入工程量，单位为吨或件，根据实际填写，未填写的按0计算。
     2、在塔吊计算选项卡中填写不均衡系数、班次、工期、是否为地下室。
-    不均衡系数一般取1.1~1.4，吊装（装卸）时一般取1.3
-    班次为8小时一班，根据实际情况推算班次
+    不均衡系数一般取1.1~1.4，吊装（装卸）时一般取1.3。
+    班次为8小时一班，根据实际情况推算班次。
     工期单位为天，减去假期
-    是否为地下室，是地下室计算则取值1，不是地下室计算取值0.
+    是否为地下室，是地下室计算则取值1，不是地下室计算取值0。
     3、点击计算按钮即可得出结果。
-    4、Ni为计算得出的塔吊需求量
+    4、Ni为计算得出的塔吊需求量。
 
 使用期间若发现错误或有其他需求的，可联系微信j710448066（焦越），提供宝贵的意见。</string>
      </property>

@@ -18,6 +18,26 @@ Widget::~Widget()
     delete ui;
 }
 
+/*  显示默认数值（半成品）
+windows::windows(QWidget* parent)
+    :QWidget(parent)
+    , ui(new Ui::Widget)
+{
+    ui->setupUi(this);
+}
+
+void windows::default_value()
+{
+    ui->lineEdit_k->setPlaceholderText("1.3");
+}
+
+
+windows::~windows()
+{
+    delete ui;
+}
+*/
+
 
 
 
@@ -88,23 +108,22 @@ void Widget::on_pushButton_js_clicked()
     int valueInt_qi2 = value_qi2.toInt(&ok);
     double valuedou_bi = value_bi.toDouble(&ok);
     double valuedou_k = value_k.toDouble(&ok);
-    //if (value_k.isEmpty())
-    //{
-   //     int valueInt_k = 1.3;
-    //}
-    //else
-    //{
-    //    int valueInt_k = value_k.toInt(&ok);
-   // }
-//
-   // if (value_bi.isEmpty())
-    //{
-   //     int valueInt_bi = 1;
-   // }
-   // else
+    if (valuedou_k == 0)
+    {
+        valuedou_k = 1.3;
+    }
+    /*else
+    {
+       int valueInt_k = value_k.toInt(&ok);
+    }*/
+    if (valuedou_bi == 0)
+    {
+        valuedou_bi = 1;
+    }
+   /*else
    // {
    //     int valueInt_bi = value_bi.toInt(&ok);
-   // }
+    }*/
 
     //计算
     double value_dcgj = ceil(valueInt_gj / 0.9);
