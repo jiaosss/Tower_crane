@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>823</width>
     <height>600</height>
    </rect>
   </property>
@@ -53,389 +53,333 @@
       <property name="title">
        <string>土建</string>
       </property>
-      <widget class="QLabel" name="label_gj">
+      <widget class="QWidget" name="horizontalLayoutWidget">
        <property name="geometry">
         <rect>
-         <x>20</x>
+         <x>10</x>
          <y>30</y>
-         <width>41</width>
-         <height>21</height>
+         <width>121</width>
+         <height>22</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>钢筋</string>
-       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label_gj">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>钢筋</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_gj"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>吨</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_gj">
+      <widget class="QWidget" name="horizontalLayoutWidget_2">
        <property name="geometry">
         <rect>
-         <x>60</x>
+         <x>160</x>
          <y>30</y>
-         <width>51</width>
-         <height>20</height>
+         <width>121</width>
+         <height>22</height>
         </rect>
        </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_mb">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>模板</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_mb"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>吨</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
-      <widget class="QLabel" name="label_2">
+      <widget class="QWidget" name="horizontalLayoutWidget_3">
        <property name="geometry">
         <rect>
-         <x>120</x>
+         <x>310</x>
          <y>30</y>
-         <width>41</width>
-         <height>21</height>
+         <width>121</width>
+         <height>22</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>吨</string>
-       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_mf">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>木方</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_mf"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>吨</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
-      <widget class="QLabel" name="label_mb">
+      <widget class="QWidget" name="horizontalLayoutWidget_4">
        <property name="geometry">
         <rect>
-         <x>170</x>
+         <x>460</x>
          <y>30</y>
-         <width>41</width>
-         <height>21</height>
+         <width>121</width>
+         <height>22</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>模板</string>
-       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_nj">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>内架</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_nj"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_8">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>吨</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
-      <widget class="QLabel" name="label_4">
-       <property name="geometry">
-        <rect>
-         <x>270</x>
-         <y>30</y>
-         <width>41</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>吨</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_mb">
-       <property name="geometry">
-        <rect>
-         <x>210</x>
-         <y>30</y>
-         <width>51</width>
-         <height>20</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_mf">
-       <property name="geometry">
-        <rect>
-         <x>320</x>
-         <y>30</y>
-         <width>41</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>木方</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_6">
-       <property name="geometry">
-        <rect>
-         <x>420</x>
-         <y>30</y>
-         <width>21</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>吨</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_mf">
-       <property name="geometry">
-        <rect>
-         <x>360</x>
-         <y>30</y>
-         <width>51</width>
-         <height>20</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_nj">
-       <property name="geometry">
-        <rect>
-         <x>470</x>
-         <y>30</y>
-         <width>41</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>内架</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_8">
-       <property name="geometry">
-        <rect>
-         <x>570</x>
-         <y>30</y>
-         <width>21</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>吨</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_nj">
-       <property name="geometry">
-        <rect>
-         <x>510</x>
-         <y>30</y>
-         <width>51</width>
-         <height>20</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_wj">
-       <property name="geometry">
-        <rect>
-         <x>650</x>
-         <y>30</y>
-         <width>51</width>
-         <height>20</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_wj">
+      <widget class="QWidget" name="horizontalLayoutWidget_5">
        <property name="geometry">
         <rect>
          <x>610</x>
          <y>30</y>
-         <width>41</width>
-         <height>21</height>
+         <width>121</width>
+         <height>22</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>外架</string>
-       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QLabel" name="label_wj">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>外架</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_wj"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_10">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>吨</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
-      <widget class="QLabel" name="label_10">
+      <widget class="QWidget" name="horizontalLayoutWidget_6">
        <property name="geometry">
         <rect>
-         <x>710</x>
-         <y>30</y>
-         <width>21</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>吨</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_njkj">
-       <property name="geometry">
-        <rect>
-         <x>90</x>
+         <x>10</x>
          <y>70</y>
-         <width>51</width>
-         <height>20</height>
+         <width>151</width>
+         <height>22</height>
         </rect>
        </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="QLabel" name="label_njkj">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>内架扣件</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_njkj"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_12">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>吨</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
-      <widget class="QLabel" name="label_njkj">
+      <widget class="QWidget" name="horizontalLayoutWidget_7">
        <property name="geometry">
         <rect>
-         <x>20</x>
+         <x>200</x>
          <y>70</y>
-         <width>71</width>
-         <height>21</height>
+         <width>151</width>
+         <height>22</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>内架扣件</string>
-       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <widget class="QLabel" name="label_wjkj">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>外架扣件</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_wjkj"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_30">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>吨</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
-      <widget class="QLabel" name="label_12">
+      <widget class="QWidget" name="horizontalLayoutWidget_8">
        <property name="geometry">
         <rect>
-         <x>150</x>
+         <x>390</x>
          <y>70</y>
-         <width>41</width>
-         <height>21</height>
+         <width>151</width>
+         <height>22</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>吨</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_wjkj">
-       <property name="geometry">
-        <rect>
-         <x>280</x>
-         <y>70</y>
-         <width>51</width>
-         <height>20</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_wjkj">
-       <property name="geometry">
-        <rect>
-         <x>210</x>
-         <y>70</y>
-         <width>71</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>外架扣件</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_30">
-       <property name="geometry">
-        <rect>
-         <x>340</x>
-         <y>70</y>
-         <width>41</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>吨</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_qtfz">
-       <property name="geometry">
-        <rect>
-         <x>400</x>
-         <y>70</y>
-         <width>71</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>其他辅助</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_qtfz">
-       <property name="geometry">
-        <rect>
-         <x>470</x>
-         <y>70</y>
-         <width>51</width>
-         <height>20</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_32">
-       <property name="geometry">
-        <rect>
-         <x>530</x>
-         <y>70</y>
-         <width>41</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>吨</string>
-       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <widget class="QLabel" name="label_qtfz">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>其他辅助</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_qtfz"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_32">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>吨</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
      </widget>
      <widget class="QGroupBox" name="groupBox_3">
@@ -450,245 +394,210 @@
       <property name="title">
        <string>钢结构</string>
       </property>
-      <widget class="QLabel" name="label_gz">
+      <widget class="QWidget" name="horizontalLayoutWidget_9">
        <property name="geometry">
         <rect>
-         <x>20</x>
+         <x>10</x>
          <y>30</y>
-         <width>41</width>
-         <height>21</height>
+         <width>121</width>
+         <height>22</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>钢柱</string>
-       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_10">
+        <item>
+         <widget class="QLabel" name="label_gz">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>钢柱</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_gz"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_14">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>吨</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
-      <widget class="QLabel" name="label_14">
+      <widget class="QWidget" name="horizontalLayoutWidget_10">
        <property name="geometry">
         <rect>
-         <x>120</x>
+         <x>160</x>
          <y>30</y>
-         <width>41</width>
-         <height>21</height>
+         <width>121</width>
+         <height>22</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>吨</string>
-       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_11">
+        <item>
+         <widget class="QLabel" name="label_gl">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>钢梁</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_gl"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_16">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>吨</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
-      <widget class="QLabel" name="label_gl">
+      <widget class="QWidget" name="horizontalLayoutWidget_11">
        <property name="geometry">
         <rect>
-         <x>170</x>
+         <x>310</x>
          <y>30</y>
-         <width>41</width>
-         <height>21</height>
+         <width>121</width>
+         <height>22</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>钢梁</string>
-       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_12">
+        <item>
+         <widget class="QLabel" name="label_gb">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>钢板</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_gb"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_18">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>吨</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
-      <widget class="QLabel" name="label_16">
+      <widget class="QWidget" name="horizontalLayoutWidget_12">
        <property name="geometry">
         <rect>
-         <x>270</x>
+         <x>460</x>
          <y>30</y>
-         <width>21</width>
-         <height>21</height>
+         <width>151</width>
+         <height>22</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>吨</string>
-       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_13">
+        <item>
+         <widget class="QLabel" name="label_lxcl">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>零星材料</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_lxcl"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_20">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>吨</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
-      <widget class="QLabel" name="label_gb">
+      <widget class="QWidget" name="horizontalLayoutWidget_13">
        <property name="geometry">
         <rect>
-         <x>320</x>
-         <y>30</y>
-         <width>41</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>钢板</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_18">
-       <property name="geometry">
-        <rect>
-         <x>420</x>
-         <y>30</y>
-         <width>41</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>吨</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_lxcl">
-       <property name="geometry">
-        <rect>
-         <x>470</x>
-         <y>30</y>
-         <width>71</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>零星材料</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_20">
-       <property name="geometry">
-        <rect>
-         <x>600</x>
-         <y>30</y>
-         <width>21</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>吨</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_gz">
-       <property name="geometry">
-        <rect>
-         <x>60</x>
-         <y>30</y>
-         <width>51</width>
-         <height>20</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_gl">
-       <property name="geometry">
-        <rect>
-         <x>210</x>
-         <y>30</y>
-         <width>51</width>
-         <height>20</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_gb">
-       <property name="geometry">
-        <rect>
-         <x>360</x>
-         <y>30</y>
-         <width>51</width>
-         <height>20</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_lxcl">
-       <property name="geometry">
-        <rect>
-         <x>540</x>
-         <y>30</y>
-         <width>51</width>
-         <height>20</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_yq">
-       <property name="geometry">
-        <rect>
-         <x>120</x>
+         <x>10</x>
          <y>70</y>
-         <width>51</width>
-         <height>20</height>
+         <width>181</width>
+         <height>22</height>
         </rect>
        </property>
-      </widget>
-      <widget class="QLabel" name="label_yq">
-       <property name="geometry">
-        <rect>
-         <x>20</x>
-         <y>70</y>
-         <width>101</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>氧气、乙炔等</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_34">
-       <property name="geometry">
-        <rect>
-         <x>180</x>
-         <y>70</y>
-         <width>21</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>吨</string>
-       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_14">
+        <item>
+         <widget class="QLabel" name="label_yq">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>氧气、乙炔等</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_yq"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_34">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>吨</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
      </widget>
      <widget class="QGroupBox" name="groupBox_4">
@@ -703,197 +612,169 @@
       <property name="title">
        <string>机电、装修装饰</string>
       </property>
-      <widget class="QLabel" name="label_21">
+      <widget class="QWidget" name="horizontalLayoutWidget_14">
        <property name="geometry">
         <rect>
-         <x>120</x>
+         <x>10</x>
          <y>30</y>
-         <width>41</width>
-         <height>21</height>
+         <width>121</width>
+         <height>22</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>件</string>
-       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_15">
+        <item>
+         <widget class="QLabel" name="label_sb">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>设备</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_sb"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_21">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>件</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_sb">
+      <widget class="QWidget" name="horizontalLayoutWidget_15">
        <property name="geometry">
         <rect>
-         <x>60</x>
+         <x>160</x>
          <y>30</y>
-         <width>51</width>
-         <height>20</height>
+         <width>121</width>
+         <height>22</height>
         </rect>
        </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_16">
+        <item>
+         <widget class="QLabel" name="label_gd">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>管道</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_gd"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_24">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>件</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
-      <widget class="QLabel" name="label_sb">
+      <widget class="QWidget" name="horizontalLayoutWidget_16">
        <property name="geometry">
         <rect>
-         <x>20</x>
+         <x>310</x>
          <y>30</y>
-         <width>41</width>
-         <height>21</height>
+         <width>121</width>
+         <height>22</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>设备</string>
-       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_17">
+        <item>
+         <widget class="QLabel" name="label_mq">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>幕墙</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_mq"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_26">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>件</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
-      <widget class="QLabel" name="label_gd">
+      <widget class="QWidget" name="horizontalLayoutWidget_17">
        <property name="geometry">
         <rect>
-         <x>170</x>
+         <x>460</x>
          <y>30</y>
-         <width>41</width>
-         <height>21</height>
+         <width>151</width>
+         <height>22</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>管道</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_24">
-       <property name="geometry">
-        <rect>
-         <x>270</x>
-         <y>30</y>
-         <width>41</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>件</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_gd">
-       <property name="geometry">
-        <rect>
-         <x>210</x>
-         <y>30</y>
-         <width>51</width>
-         <height>20</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_mq">
-       <property name="geometry">
-        <rect>
-         <x>320</x>
-         <y>30</y>
-         <width>41</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>幕墙</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_mq">
-       <property name="geometry">
-        <rect>
-         <x>360</x>
-         <y>30</y>
-         <width>51</width>
-         <height>20</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_26">
-       <property name="geometry">
-        <rect>
-         <x>420</x>
-         <y>30</y>
-         <width>41</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>件</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_zxcl">
-       <property name="geometry">
-        <rect>
-         <x>480</x>
-         <y>30</y>
-         <width>71</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>装修材料</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_zxcl">
-       <property name="geometry">
-        <rect>
-         <x>550</x>
-         <y>30</y>
-         <width>51</width>
-         <height>20</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_28">
-       <property name="geometry">
-        <rect>
-         <x>610</x>
-         <y>30</y>
-         <width>41</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>宋体</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>吨</string>
-       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_18">
+        <item>
+         <widget class="QLabel" name="label_zxcl">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>装修材料</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_zxcl"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_28">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>吨</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
      </widget>
      <widget class="QGroupBox" name="groupBox_5">
@@ -965,6 +846,9 @@
          <height>20</height>
         </rect>
        </property>
+       <property name="placeholderText">
+        <string/>
+       </property>
       </widget>
       <widget class="QLabel" name="label_19">
        <property name="geometry">
@@ -1023,6 +907,9 @@
          <height>21</height>
         </rect>
        </property>
+       <property name="placeholderText">
+        <string>1.3</string>
+       </property>
       </widget>
       <widget class="QLabel" name="label_35">
        <property name="geometry">
@@ -1051,6 +938,9 @@
          <width>51</width>
          <height>21</height>
         </rect>
+       </property>
+       <property name="placeholderText">
+        <string>1</string>
        </property>
       </widget>
      </widget>
@@ -1775,15 +1665,15 @@ p, li { white-space: pre-wrap; }
      </property>
      <property name="plainText">
       <string>版本：v0.2测试版
-本软件仅供计算吊装分析参考，正式版会加入更多功能，后期可对默认参数进行修改。
+本软件仅供计算吊装分析参考，正式版会加入更多功能，如根据工期计算塔吊。
 本软件仅供中国建筑一局（集团）有限公司华南区域公司内部使用，切勿外传。
 
 使用说明：
-    1、在工程量选项卡里输入工程量，单位为吨或件，根据实际填写，未填写的按0计算。
-    2、在塔吊计算选项卡中填写不均衡系数、班次、工期、是否为地下室。
-    不均衡系数一般取1.1~1.4，吊装（装卸）时一般取1.3。
-    班次为8小时一班，根据实际情况推算班次。
-    工期单位为天，减去假期
+    1、在工程量选项卡里输入工程量及不均衡系数、班次、工期、是否为地下室。工程量单位为吨或件，根据实际填写，工程量未输入的按0计算。
+    2、其中
+    不均衡系数一般取1.1~1.4，默认吊装（装卸）时一般取1.3。
+    班次为8小时一班，根据实际情况推算班次，默认取1。
+    工期单位为天，减去假期。
     是否为地下室，是地下室计算则取值1，不是地下室计算取值0。
     3、点击计算按钮即可得出结果。
     4、Ni为计算得出的塔吊需求量。

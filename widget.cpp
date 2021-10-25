@@ -2,6 +2,7 @@
 #include "ui_widget.h"
 #include <QString>
 #include <math.h>
+#pragma execution_character_set("utf-8")
 
 using namespace std;
 
@@ -11,6 +12,7 @@ Widget::Widget(QWidget *parent)
     , ui(new Ui::Widget)
 {
     ui->setupUi(this);
+    this->setWindowTitle("吊装分析");
 }
 
 Widget::~Widget()
@@ -18,17 +20,12 @@ Widget::~Widget()
     delete ui;
 }
 
-/*  显示默认数值（半成品）
-windows::windows(QWidget* parent)
+//  显示默认数值（半成品）
+/*windows::windows(QWidget* parent)
     :QWidget(parent)
     , ui(new Ui::Widget)
 {
     ui->setupUi(this);
-}
-
-void windows::default_value()
-{
-    ui->lineEdit_k->setPlaceholderText("1.3");
 }
 
 
@@ -36,10 +33,13 @@ windows::~windows()
 {
     delete ui;
 }
+
+
+void windows::default_value()
+{
+    ui->lineEdit_k->setPlaceholderText("1.3");
+}
 */
-
-
-
 
 
 void Widget::on_pushButton_js_clicked()
@@ -223,7 +223,7 @@ void Widget::on_pushButton_js_clicked()
     ui->tabWidget->setCurrentIndex(1);
 
 
-
+    
 
 
 
@@ -234,3 +234,7 @@ void Widget::on_pushButton_js_clicked()
 }
 
 
+void Widget::default_value()
+{
+    ui->lineEdit_ni->setPlaceholderText("1.3");
+}

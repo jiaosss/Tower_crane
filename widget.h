@@ -10,8 +10,8 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
 QT_END_NAMESPACE
 
-/*  显示默认数值（半成品）
-class windows : public QWidget
+//  显示默认数值（半成品）
+/*class windows : public QWidget
 {
     Q_OBJECT
 public:
@@ -33,6 +33,8 @@ class Widget : public QWidget
 public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
+
+    void default_value();
 
 
 private slots:
