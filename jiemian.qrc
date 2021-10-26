@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>jiemian_logo.jpg</file>
+        <file>jiemian_logo.png</file>
+    </qresource>
+</RCC>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>823</width>
-    <height>600</height>
+    <width>812</width>
+    <height>599</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,12 +18,12 @@
     <rect>
      <x>-4</x>
      <y>9</y>
-     <width>821</width>
+     <width>811</width>
      <height>561</height>
     </rect>
    </property>
    <property name="currentIndex">
-    <number>0</number>
+    <number>3</number>
    </property>
    <widget class="QWidget" name="tabEA">
     <attribute name="title">
@@ -77,7 +77,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_gj"/>
+         <widget class="QLineEdit" name="lineEdit_gj">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_2">
@@ -118,7 +122,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_mb"/>
+         <widget class="QLineEdit" name="lineEdit_mb">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_4">
@@ -159,7 +167,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_mf"/>
+         <widget class="QLineEdit" name="lineEdit_mf">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_6">
@@ -200,7 +212,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_nj"/>
+         <widget class="QLineEdit" name="lineEdit_nj">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_8">
@@ -241,7 +257,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_wj"/>
+         <widget class="QLineEdit" name="lineEdit_wj">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_10">
@@ -282,7 +302,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_njkj"/>
+         <widget class="QLineEdit" name="lineEdit_njkj">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_12">
@@ -323,7 +347,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_wjkj"/>
+         <widget class="QLineEdit" name="lineEdit_wjkj">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_30">
@@ -364,7 +392,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_qtfz"/>
+         <widget class="QLineEdit" name="lineEdit_qtfz">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_32">
@@ -418,7 +450,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_gz"/>
+         <widget class="QLineEdit" name="lineEdit_gz">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_14">
@@ -459,7 +495,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_gl"/>
+         <widget class="QLineEdit" name="lineEdit_gl">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_16">
@@ -500,7 +540,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_gb"/>
+         <widget class="QLineEdit" name="lineEdit_gb">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_18">
@@ -541,7 +585,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_lxcl"/>
+         <widget class="QLineEdit" name="lineEdit_lxcl">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_20">
@@ -582,7 +630,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_yq"/>
+         <widget class="QLineEdit" name="lineEdit_yq">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_34">
@@ -636,7 +688,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_sb"/>
+         <widget class="QLineEdit" name="lineEdit_sb">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_21">
@@ -677,7 +733,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_gd"/>
+         <widget class="QLineEdit" name="lineEdit_gd">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_24">
@@ -718,7 +778,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_mq"/>
+         <widget class="QLineEdit" name="lineEdit_mq">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_26">
@@ -759,7 +823,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_zxcl"/>
+         <widget class="QLineEdit" name="lineEdit_zxcl">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="label_28">
@@ -817,6 +885,9 @@
          <height>20</height>
         </rect>
        </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
       </widget>
       <widget class="QLabel" name="label_17">
        <property name="geometry">
@@ -845,6 +916,9 @@
          <width>51</width>
          <height>20</height>
         </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
        <property name="placeholderText">
         <string/>
@@ -878,6 +952,9 @@
          <height>20</height>
         </rect>
        </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
       </widget>
       <widget class="QLabel" name="label_36">
        <property name="geometry">
@@ -906,6 +983,9 @@
          <width>51</width>
          <height>21</height>
         </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
        <property name="placeholderText">
         <string>1.3</string>
@@ -938,6 +1018,9 @@
          <width>51</width>
          <height>21</height>
         </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
        <property name="placeholderText">
         <string>1</string>
@@ -1104,6 +1187,9 @@
         <height>21</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
      </widget>
      <widget class="QLabel" name="label_13">
       <property name="geometry">
@@ -1133,6 +1219,9 @@
         <height>21</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit_2dz">
       <property name="geometry">
@@ -1142,6 +1231,9 @@
         <width>81</width>
         <height>21</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit_3dz">
@@ -1153,6 +1245,9 @@
         <height>21</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit_4dz">
       <property name="geometry">
@@ -1162,6 +1257,9 @@
         <width>81</width>
         <height>21</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit_5dz">
@@ -1173,6 +1271,9 @@
         <height>21</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit_6dz">
       <property name="geometry">
@@ -1182,6 +1283,9 @@
         <width>81</width>
         <height>21</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit_2bl">
@@ -1193,6 +1297,9 @@
         <height>21</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit_3bl">
       <property name="geometry">
@@ -1202,6 +1309,9 @@
         <width>71</width>
         <height>21</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit_4bl">
@@ -1213,6 +1323,9 @@
         <height>21</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit_5bl">
       <property name="geometry">
@@ -1223,6 +1336,9 @@
         <height>21</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit_6bl">
       <property name="geometry">
@@ -1232,6 +1348,9 @@
         <width>71</width>
         <height>21</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
       </property>
      </widget>
      <widget class="QLabel" name="label_29">
@@ -1262,6 +1381,9 @@
         <height>21</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
      </widget>
      <widget class="QLabel" name="label_31">
       <property name="geometry">
@@ -1291,6 +1413,9 @@
         <height>21</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
      </widget>
      <widget class="QLabel" name="label_33">
       <property name="geometry">
@@ -1319,6 +1444,9 @@
         <width>101</width>
         <height>21</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
       </property>
      </widget>
     </widget>
@@ -1677,36 +1805,57 @@ p, li { white-space: pre-wrap; }
     是否为地下室，是地下室计算则取值1，不是地下室计算取值0。
     3、点击计算按钮即可得出结果。
     4、Ni为计算得出的塔吊需求量。
+    5、默认参数修改功能暂不可用。
 
-使用期间若发现错误或有其他需求的，可联系微信j710448066（焦越），提供宝贵的意见。</string>
+使用期间若发现错误或有其他需求的，可发送邮箱jiaosss01@163.com（华南公司GET创新小组焦越），提供宝贵的意见。</string>
      </property>
     </widget>
    </widget>
   </widget>
-  <widget class="QTextEdit" name="textEdit">
+  <widget class="QLabel" name="label_45">
    <property name="geometry">
     <rect>
      <x>0</x>
+     <y>560</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix1/jiemian_logo.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_46">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
      <y>570</y>
-     <width>801</width>
+     <width>571</width>
      <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>华文楷体</family>
+     <family>宋体</family>
      <pointsize>12</pointsize>
     </font>
    </property>
-   <property name="html">
-    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'华文楷体'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'SimSun';&quot;&gt;塔吊分析v0.2测试版  -- 欧阳航 焦越  问题反馈：微信j710448066&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   <property name="text">
+    <string>塔吊分析v0.2测试版  -- 华南公司GET创新小组  问题反馈：jiaosss01@163.com</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="jiemian.qrc"/>
+ </resources>
  <connections/>
 </ui>

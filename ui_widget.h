@@ -19,7 +19,6 @@
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QTabWidget>
 #include <QtWidgets/QTextBrowser>
-#include <QtWidgets/QTextEdit>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -179,16 +178,17 @@ public:
     QLabel *label_44;
     QWidget *tabValue;
     QPlainTextEdit *plainTextEdit;
-    QTextEdit *textEdit;
+    QLabel *label_45;
+    QLabel *label_46;
 
     void setupUi(QWidget *Widget)
     {
         if (Widget->objectName().isEmpty())
             Widget->setObjectName(QString::fromUtf8("Widget"));
-        Widget->resize(823, 600);
+        Widget->resize(812, 599);
         tabWidget = new QTabWidget(Widget);
         tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
-        tabWidget->setGeometry(QRect(-4, 9, 821, 561));
+        tabWidget->setGeometry(QRect(-4, 9, 811, 561));
         tabEA = new QWidget();
         tabEA->setObjectName(QString::fromUtf8("tabEA"));
         groupBoxba = new QGroupBox(tabEA);
@@ -214,6 +214,7 @@ public:
 
         lineEdit_gj = new QLineEdit(horizontalLayoutWidget);
         lineEdit_gj->setObjectName(QString::fromUtf8("lineEdit_gj"));
+        lineEdit_gj->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout->addWidget(lineEdit_gj);
 
@@ -237,6 +238,7 @@ public:
 
         lineEdit_mb = new QLineEdit(horizontalLayoutWidget_2);
         lineEdit_mb->setObjectName(QString::fromUtf8("lineEdit_mb"));
+        lineEdit_mb->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_2->addWidget(lineEdit_mb);
 
@@ -260,6 +262,7 @@ public:
 
         lineEdit_mf = new QLineEdit(horizontalLayoutWidget_3);
         lineEdit_mf->setObjectName(QString::fromUtf8("lineEdit_mf"));
+        lineEdit_mf->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_3->addWidget(lineEdit_mf);
 
@@ -283,6 +286,7 @@ public:
 
         lineEdit_nj = new QLineEdit(horizontalLayoutWidget_4);
         lineEdit_nj->setObjectName(QString::fromUtf8("lineEdit_nj"));
+        lineEdit_nj->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_4->addWidget(lineEdit_nj);
 
@@ -306,6 +310,7 @@ public:
 
         lineEdit_wj = new QLineEdit(horizontalLayoutWidget_5);
         lineEdit_wj->setObjectName(QString::fromUtf8("lineEdit_wj"));
+        lineEdit_wj->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_6->addWidget(lineEdit_wj);
 
@@ -329,6 +334,7 @@ public:
 
         lineEdit_njkj = new QLineEdit(horizontalLayoutWidget_6);
         lineEdit_njkj->setObjectName(QString::fromUtf8("lineEdit_njkj"));
+        lineEdit_njkj->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_7->addWidget(lineEdit_njkj);
 
@@ -352,6 +358,7 @@ public:
 
         lineEdit_wjkj = new QLineEdit(horizontalLayoutWidget_7);
         lineEdit_wjkj->setObjectName(QString::fromUtf8("lineEdit_wjkj"));
+        lineEdit_wjkj->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_8->addWidget(lineEdit_wjkj);
 
@@ -375,6 +382,7 @@ public:
 
         lineEdit_qtfz = new QLineEdit(horizontalLayoutWidget_8);
         lineEdit_qtfz->setObjectName(QString::fromUtf8("lineEdit_qtfz"));
+        lineEdit_qtfz->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_9->addWidget(lineEdit_qtfz);
 
@@ -401,6 +409,7 @@ public:
 
         lineEdit_gz = new QLineEdit(horizontalLayoutWidget_9);
         lineEdit_gz->setObjectName(QString::fromUtf8("lineEdit_gz"));
+        lineEdit_gz->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_10->addWidget(lineEdit_gz);
 
@@ -424,6 +433,7 @@ public:
 
         lineEdit_gl = new QLineEdit(horizontalLayoutWidget_10);
         lineEdit_gl->setObjectName(QString::fromUtf8("lineEdit_gl"));
+        lineEdit_gl->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_11->addWidget(lineEdit_gl);
 
@@ -447,6 +457,7 @@ public:
 
         lineEdit_gb = new QLineEdit(horizontalLayoutWidget_11);
         lineEdit_gb->setObjectName(QString::fromUtf8("lineEdit_gb"));
+        lineEdit_gb->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_12->addWidget(lineEdit_gb);
 
@@ -470,6 +481,7 @@ public:
 
         lineEdit_lxcl = new QLineEdit(horizontalLayoutWidget_12);
         lineEdit_lxcl->setObjectName(QString::fromUtf8("lineEdit_lxcl"));
+        lineEdit_lxcl->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_13->addWidget(lineEdit_lxcl);
 
@@ -493,6 +505,7 @@ public:
 
         lineEdit_yq = new QLineEdit(horizontalLayoutWidget_13);
         lineEdit_yq->setObjectName(QString::fromUtf8("lineEdit_yq"));
+        lineEdit_yq->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_14->addWidget(lineEdit_yq);
 
@@ -519,6 +532,7 @@ public:
 
         lineEdit_sb = new QLineEdit(horizontalLayoutWidget_14);
         lineEdit_sb->setObjectName(QString::fromUtf8("lineEdit_sb"));
+        lineEdit_sb->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_15->addWidget(lineEdit_sb);
 
@@ -542,6 +556,7 @@ public:
 
         lineEdit_gd = new QLineEdit(horizontalLayoutWidget_15);
         lineEdit_gd->setObjectName(QString::fromUtf8("lineEdit_gd"));
+        lineEdit_gd->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_16->addWidget(lineEdit_gd);
 
@@ -565,6 +580,7 @@ public:
 
         lineEdit_mq = new QLineEdit(horizontalLayoutWidget_16);
         lineEdit_mq->setObjectName(QString::fromUtf8("lineEdit_mq"));
+        lineEdit_mq->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_17->addWidget(lineEdit_mq);
 
@@ -588,6 +604,7 @@ public:
 
         lineEdit_zxcl = new QLineEdit(horizontalLayoutWidget_17);
         lineEdit_zxcl->setObjectName(QString::fromUtf8("lineEdit_zxcl"));
+        lineEdit_zxcl->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_18->addWidget(lineEdit_zxcl);
 
@@ -607,6 +624,7 @@ public:
         lineEdit_dxs = new QLineEdit(groupBox_5);
         lineEdit_dxs->setObjectName(QString::fromUtf8("lineEdit_dxs"));
         lineEdit_dxs->setGeometry(QRect(480, 20, 51, 20));
+        lineEdit_dxs->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         label_17 = new QLabel(groupBox_5);
         label_17->setObjectName(QString::fromUtf8("label_17"));
         label_17->setGeometry(QRect(10, 50, 461, 21));
@@ -614,6 +632,7 @@ public:
         lineEdit_jzgd = new QLineEdit(groupBox_5);
         lineEdit_jzgd->setObjectName(QString::fromUtf8("lineEdit_jzgd"));
         lineEdit_jzgd->setGeometry(QRect(480, 50, 51, 20));
+        lineEdit_jzgd->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         label_19 = new QLabel(groupBox_5);
         label_19->setObjectName(QString::fromUtf8("label_19"));
         label_19->setGeometry(QRect(10, 80, 461, 21));
@@ -621,6 +640,7 @@ public:
         lineEdit_gq = new QLineEdit(groupBox_5);
         lineEdit_gq->setObjectName(QString::fromUtf8("lineEdit_gq"));
         lineEdit_gq->setGeometry(QRect(480, 80, 51, 20));
+        lineEdit_gq->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         label_36 = new QLabel(groupBox_5);
         label_36->setObjectName(QString::fromUtf8("label_36"));
         label_36->setGeometry(QRect(10, 110, 461, 21));
@@ -628,6 +648,7 @@ public:
         lineEdit_k = new QLineEdit(groupBox_5);
         lineEdit_k->setObjectName(QString::fromUtf8("lineEdit_k"));
         lineEdit_k->setGeometry(QRect(480, 110, 51, 21));
+        lineEdit_k->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         label_35 = new QLabel(groupBox_5);
         label_35->setObjectName(QString::fromUtf8("label_35"));
         label_35->setGeometry(QRect(10, 140, 461, 21));
@@ -635,6 +656,7 @@ public:
         lineEdit_bi = new QLineEdit(groupBox_5);
         lineEdit_bi->setObjectName(QString::fromUtf8("lineEdit_bi"));
         lineEdit_bi->setGeometry(QRect(480, 140, 51, 21));
+        lineEdit_bi->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         pushButton_js = new QPushButton(groupBoxba);
         pushButton_js->setObjectName(QString::fromUtf8("pushButton_js"));
         pushButton_js->setGeometry(QRect(630, 390, 61, 31));
@@ -675,6 +697,7 @@ public:
         lineEdit_1dz = new QLineEdit(groupBox);
         lineEdit_1dz->setObjectName(QString::fromUtf8("lineEdit_1dz"));
         lineEdit_1dz->setGeometry(QRect(460, 30, 81, 21));
+        lineEdit_1dz->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         label_13 = new QLabel(groupBox);
         label_13->setObjectName(QString::fromUtf8("label_13"));
         label_13->setGeometry(QRect(50, 0, 671, 31));
@@ -682,36 +705,47 @@ public:
         lineEdit_1bl = new QLineEdit(groupBox);
         lineEdit_1bl->setObjectName(QString::fromUtf8("lineEdit_1bl"));
         lineEdit_1bl->setGeometry(QRect(630, 30, 71, 21));
+        lineEdit_1bl->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         lineEdit_2dz = new QLineEdit(groupBox);
         lineEdit_2dz->setObjectName(QString::fromUtf8("lineEdit_2dz"));
         lineEdit_2dz->setGeometry(QRect(460, 60, 81, 21));
+        lineEdit_2dz->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         lineEdit_3dz = new QLineEdit(groupBox);
         lineEdit_3dz->setObjectName(QString::fromUtf8("lineEdit_3dz"));
         lineEdit_3dz->setGeometry(QRect(460, 90, 81, 21));
+        lineEdit_3dz->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         lineEdit_4dz = new QLineEdit(groupBox);
         lineEdit_4dz->setObjectName(QString::fromUtf8("lineEdit_4dz"));
         lineEdit_4dz->setGeometry(QRect(460, 120, 81, 21));
+        lineEdit_4dz->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         lineEdit_5dz = new QLineEdit(groupBox);
         lineEdit_5dz->setObjectName(QString::fromUtf8("lineEdit_5dz"));
         lineEdit_5dz->setGeometry(QRect(460, 150, 81, 21));
+        lineEdit_5dz->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         lineEdit_6dz = new QLineEdit(groupBox);
         lineEdit_6dz->setObjectName(QString::fromUtf8("lineEdit_6dz"));
         lineEdit_6dz->setGeometry(QRect(460, 180, 81, 21));
+        lineEdit_6dz->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         lineEdit_2bl = new QLineEdit(groupBox);
         lineEdit_2bl->setObjectName(QString::fromUtf8("lineEdit_2bl"));
         lineEdit_2bl->setGeometry(QRect(630, 60, 71, 21));
+        lineEdit_2bl->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         lineEdit_3bl = new QLineEdit(groupBox);
         lineEdit_3bl->setObjectName(QString::fromUtf8("lineEdit_3bl"));
         lineEdit_3bl->setGeometry(QRect(630, 90, 71, 21));
+        lineEdit_3bl->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         lineEdit_4bl = new QLineEdit(groupBox);
         lineEdit_4bl->setObjectName(QString::fromUtf8("lineEdit_4bl"));
         lineEdit_4bl->setGeometry(QRect(630, 120, 71, 21));
+        lineEdit_4bl->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         lineEdit_5bl = new QLineEdit(groupBox);
         lineEdit_5bl->setObjectName(QString::fromUtf8("lineEdit_5bl"));
         lineEdit_5bl->setGeometry(QRect(630, 150, 71, 21));
+        lineEdit_5bl->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         lineEdit_6bl = new QLineEdit(groupBox);
         lineEdit_6bl->setObjectName(QString::fromUtf8("lineEdit_6bl"));
         lineEdit_6bl->setGeometry(QRect(630, 180, 71, 21));
+        lineEdit_6bl->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         label_29 = new QLabel(groupBox);
         label_29->setObjectName(QString::fromUtf8("label_29"));
         label_29->setGeometry(QRect(40, 280, 21, 21));
@@ -719,6 +753,7 @@ public:
         lineEdit_ni = new QLineEdit(groupBox);
         lineEdit_ni->setObjectName(QString::fromUtf8("lineEdit_ni"));
         lineEdit_ni->setGeometry(QRect(70, 280, 91, 21));
+        lineEdit_ni->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         label_31 = new QLabel(groupBox);
         label_31->setObjectName(QString::fromUtf8("label_31"));
         label_31->setGeometry(QRect(310, 280, 21, 21));
@@ -726,6 +761,7 @@ public:
         lineEdit_qi1 = new QLineEdit(groupBox);
         lineEdit_qi1->setObjectName(QString::fromUtf8("lineEdit_qi1"));
         lineEdit_qi1->setGeometry(QRect(340, 280, 101, 21));
+        lineEdit_qi1->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         label_33 = new QLabel(groupBox);
         label_33->setObjectName(QString::fromUtf8("label_33"));
         label_33->setGeometry(QRect(590, 280, 21, 21));
@@ -733,6 +769,7 @@ public:
         lineEdit_qi2 = new QLineEdit(groupBox);
         lineEdit_qi2->setObjectName(QString::fromUtf8("lineEdit_qi2"));
         lineEdit_qi2->setGeometry(QRect(620, 280, 101, 21));
+        lineEdit_qi2->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         textBrowser = new QTextBrowser(tabTC);
         textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
         textBrowser->setGeometry(QRect(20, 10, 761, 121));
@@ -818,17 +855,20 @@ public:
         font2.setPointSize(12);
         plainTextEdit->setFont(font2);
         tabWidget->addTab(tabValue, QString());
-        textEdit = new QTextEdit(Widget);
-        textEdit->setObjectName(QString::fromUtf8("textEdit"));
-        textEdit->setGeometry(QRect(0, 570, 801, 31));
-        QFont font3;
-        font3.setFamily(QString::fromUtf8("\345\215\216\346\226\207\346\245\267\344\275\223"));
-        font3.setPointSize(12);
-        textEdit->setFont(font3);
+        label_45 = new QLabel(Widget);
+        label_45->setObjectName(QString::fromUtf8("label_45"));
+        label_45->setGeometry(QRect(0, 560, 231, 51));
+        label_45->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/jiemian_logo.png);"));
+        label_45->setAlignment(Qt::AlignCenter);
+        label_46 = new QLabel(Widget);
+        label_46->setObjectName(QString::fromUtf8("label_46"));
+        label_46->setGeometry(QRect(230, 570, 571, 31));
+        label_46->setFont(font2);
+        label_46->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         retranslateUi(Widget);
 
-        tabWidget->setCurrentIndex(0);
+        tabWidget->setCurrentIndex(3);
 
 
         QMetaObject::connectSlotsByName(Widget);
@@ -939,14 +979,12 @@ public:
 "    3\343\200\201\347\202\271\345\207\273\350\256\241\347\256\227\346\214\211\351\222\256\345\215\263\345\217\257\345\276\227\345\207\272\347\273\223\346\236\234\343\200\202\n"
 "    4\343\200\201Ni\344\270\272\350\256\241"
                         "\347\256\227\345\276\227\345\207\272\347\232\204\345\241\224\345\220\212\351\234\200\346\261\202\351\207\217\343\200\202\n"
+"    5\343\200\201\351\273\230\350\256\244\345\217\202\346\225\260\344\277\256\346\224\271\345\212\237\350\203\275\346\232\202\344\270\215\345\217\257\347\224\250\343\200\202\n"
 "\n"
-"\344\275\277\347\224\250\346\234\237\351\227\264\350\213\245\345\217\221\347\216\260\351\224\231\350\257\257\346\210\226\346\234\211\345\205\266\344\273\226\351\234\200\346\261\202\347\232\204\357\274\214\345\217\257\350\201\224\347\263\273\345\276\256\344\277\241j710448066\357\274\210\347\204\246\350\266\212\357\274\211\357\274\214\346\217\220\344\276\233\345\256\235\350\264\265\347\232\204\346\204\217\350\247\201\343\200\202", nullptr));
+"\344\275\277\347\224\250\346\234\237\351\227\264\350\213\245\345\217\221\347\216\260\351\224\231\350\257\257\346\210\226\346\234\211\345\205\266\344\273\226\351\234\200\346\261\202\347\232\204\357\274\214\345\217\257\345\217\221\351\200\201\351\202\256\347\256\261jiaosss01@163.com\357\274\210\345\215\216\345\215\227\345\205\254\345\217\270GET\345\210\233\346\226\260\345\260\217\347\273\204\347\204\246\350\266\212\357\274\211\357\274\214\346\217\220\344\276\233\345\256\235\350\264\265\347\232\204\346\204\217\350\247\201\343\200\202", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tabValue), QApplication::translate("Widget", "\350\257\264\346\230\216", nullptr));
-        textEdit->setHtml(QApplication::translate("Widget", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'\345\215\216\346\226\207\346\245\267\344\275\223'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p dir='rtl' style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'SimSun';\">\345\241\224\345\220\212\345\210\206\346\236\220v0.2\346\265\213\350\257\225\347\211\210  -- \346\254\247\351\230\263\350\210\252 \347\204\246\350\266\212  \351\227\256\351\242\230\345\217\215\351\246\210\357\274\232\345\276\256\344\277\241j710448066</span></p></body></html>", nullptr));
+        label_45->setText(QString());
+        label_46->setText(QApplication::translate("Widget", "\345\241\224\345\220\212\345\210\206\346\236\220v0.2\346\265\213\350\257\225\347\211\210  -- \345\215\216\345\215\227\345\205\254\345\217\270GET\345\210\233\346\226\260\345\260\217\347\273\204  \351\227\256\351\242\230\345\217\215\351\246\210\357\274\232jiaosss01@163.com", nullptr));
     } // retranslateUi
 
 };

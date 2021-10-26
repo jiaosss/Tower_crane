@@ -1,7 +1,6 @@
 #include "widget.h"
 #include "ui_widget.h"
 #include <QString>
-#include <math.h>
 #pragma execution_character_set("utf-8")
 
 using namespace std;
@@ -13,6 +12,8 @@ Widget::Widget(QWidget *parent)
 {
     ui->setupUi(this);
     this->setWindowTitle("µõ×°·ÖÎö");
+
+    
 }
 
 Widget::~Widget()
