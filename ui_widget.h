@@ -118,8 +118,6 @@ public:
     QLineEdit *lineEdit_zxcl;
     QLabel *label_28;
     QGroupBox *groupBox_5;
-    QLabel *label_15;
-    QLineEdit *lineEdit_dxs;
     QLabel *label_17;
     QLineEdit *lineEdit_jzgd;
     QLabel *label_19;
@@ -159,7 +157,7 @@ public:
     QTextBrowser *textBrowser;
     QWidget *tabDefault;
     QLabel *label_22;
-    QLineEdit *lineEdit;
+    QLineEdit *lineEdit_defalt1;
     QLabel *label_23;
     QLabel *label_25;
     QLineEdit *lineEdit_2;
@@ -176,6 +174,7 @@ public:
     QLabel *label_43;
     QLineEdit *lineEdit_6;
     QLabel *label_44;
+    QPushButton *pushButton_sz;
     QWidget *tabValue;
     QPlainTextEdit *plainTextEdit;
     QLabel *label_45;
@@ -185,7 +184,7 @@ public:
     {
         if (Widget->objectName().isEmpty())
             Widget->setObjectName(QString::fromUtf8("Widget"));
-        Widget->resize(812, 599);
+        Widget->resize(805, 599);
         tabWidget = new QTabWidget(Widget);
         tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
         tabWidget->setGeometry(QRect(-4, 9, 811, 561));
@@ -196,7 +195,7 @@ public:
         groupBoxba->setGeometry(QRect(20, 10, 761, 511));
         groupBox_2 = new QGroupBox(groupBoxba);
         groupBox_2->setObjectName(QString::fromUtf8("groupBox_2"));
-        groupBox_2->setGeometry(QRect(10, 20, 741, 101));
+        groupBox_2->setGeometry(QRect(10, 30, 741, 101));
         horizontalLayoutWidget = new QWidget(groupBox_2);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
         horizontalLayoutWidget->setGeometry(QRect(10, 30, 121, 22));
@@ -394,7 +393,7 @@ public:
 
         groupBox_3 = new QGroupBox(groupBoxba);
         groupBox_3->setObjectName(QString::fromUtf8("groupBox_3"));
-        groupBox_3->setGeometry(QRect(10, 130, 741, 101));
+        groupBox_3->setGeometry(QRect(10, 150, 741, 101));
         horizontalLayoutWidget_9 = new QWidget(groupBox_3);
         horizontalLayoutWidget_9->setObjectName(QString::fromUtf8("horizontalLayoutWidget_9"));
         horizontalLayoutWidget_9->setGeometry(QRect(10, 30, 121, 22));
@@ -517,7 +516,7 @@ public:
 
         groupBox_4 = new QGroupBox(groupBoxba);
         groupBox_4->setObjectName(QString::fromUtf8("groupBox_4"));
-        groupBox_4->setGeometry(QRect(10, 240, 741, 61));
+        groupBox_4->setGeometry(QRect(10, 270, 741, 61));
         horizontalLayoutWidget_14 = new QWidget(groupBox_4);
         horizontalLayoutWidget_14->setObjectName(QString::fromUtf8("horizontalLayoutWidget_14"));
         horizontalLayoutWidget_14->setGeometry(QRect(10, 30, 121, 22));
@@ -616,50 +615,42 @@ public:
 
         groupBox_5 = new QGroupBox(groupBoxba);
         groupBox_5->setObjectName(QString::fromUtf8("groupBox_5"));
-        groupBox_5->setGeometry(QRect(10, 320, 561, 171));
-        label_15 = new QLabel(groupBox_5);
-        label_15->setObjectName(QString::fromUtf8("label_15"));
-        label_15->setGeometry(QRect(10, 20, 461, 21));
-        label_15->setFont(font);
-        lineEdit_dxs = new QLineEdit(groupBox_5);
-        lineEdit_dxs->setObjectName(QString::fromUtf8("lineEdit_dxs"));
-        lineEdit_dxs->setGeometry(QRect(480, 20, 51, 20));
-        lineEdit_dxs->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+        groupBox_5->setGeometry(QRect(10, 350, 611, 141));
         label_17 = new QLabel(groupBox_5);
         label_17->setObjectName(QString::fromUtf8("label_17"));
-        label_17->setGeometry(QRect(10, 50, 461, 21));
+        label_17->setGeometry(QRect(10, 20, 521, 21));
         label_17->setFont(font);
         lineEdit_jzgd = new QLineEdit(groupBox_5);
         lineEdit_jzgd->setObjectName(QString::fromUtf8("lineEdit_jzgd"));
-        lineEdit_jzgd->setGeometry(QRect(480, 50, 51, 20));
+        lineEdit_jzgd->setGeometry(QRect(540, 20, 51, 20));
         lineEdit_jzgd->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         label_19 = new QLabel(groupBox_5);
         label_19->setObjectName(QString::fromUtf8("label_19"));
-        label_19->setGeometry(QRect(10, 80, 461, 21));
+        label_19->setGeometry(QRect(10, 50, 521, 21));
         label_19->setFont(font);
         lineEdit_gq = new QLineEdit(groupBox_5);
         lineEdit_gq->setObjectName(QString::fromUtf8("lineEdit_gq"));
-        lineEdit_gq->setGeometry(QRect(480, 80, 51, 20));
+        lineEdit_gq->setGeometry(QRect(540, 50, 51, 20));
         lineEdit_gq->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         label_36 = new QLabel(groupBox_5);
         label_36->setObjectName(QString::fromUtf8("label_36"));
-        label_36->setGeometry(QRect(10, 110, 461, 21));
+        label_36->setGeometry(QRect(10, 80, 521, 21));
         label_36->setFont(font);
         lineEdit_k = new QLineEdit(groupBox_5);
         lineEdit_k->setObjectName(QString::fromUtf8("lineEdit_k"));
-        lineEdit_k->setGeometry(QRect(480, 110, 51, 21));
+        lineEdit_k->setGeometry(QRect(540, 80, 51, 21));
         lineEdit_k->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         label_35 = new QLabel(groupBox_5);
         label_35->setObjectName(QString::fromUtf8("label_35"));
-        label_35->setGeometry(QRect(10, 140, 461, 21));
+        label_35->setGeometry(QRect(10, 110, 521, 21));
         label_35->setFont(font);
         lineEdit_bi = new QLineEdit(groupBox_5);
         lineEdit_bi->setObjectName(QString::fromUtf8("lineEdit_bi"));
-        lineEdit_bi->setGeometry(QRect(480, 140, 51, 21));
+        lineEdit_bi->setGeometry(QRect(540, 110, 51, 21));
         lineEdit_bi->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         pushButton_js = new QPushButton(groupBoxba);
         pushButton_js->setObjectName(QString::fromUtf8("pushButton_js"));
-        pushButton_js->setGeometry(QRect(630, 390, 61, 31));
+        pushButton_js->setGeometry(QRect(660, 410, 61, 31));
         pushButton_js->setFont(font);
         tabWidget->addTab(tabEA, QString());
         tabTC = new QWidget();
@@ -700,7 +691,7 @@ public:
         lineEdit_1dz->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         label_13 = new QLabel(groupBox);
         label_13->setObjectName(QString::fromUtf8("label_13"));
-        label_13->setGeometry(QRect(50, 0, 671, 31));
+        label_13->setGeometry(QRect(40, 0, 671, 31));
         label_13->setFont(font1);
         lineEdit_1bl = new QLineEdit(groupBox);
         lineEdit_1bl->setObjectName(QString::fromUtf8("lineEdit_1bl"));
@@ -782,9 +773,10 @@ public:
         label_22->setObjectName(QString::fromUtf8("label_22"));
         label_22->setGeometry(QRect(20, 20, 131, 21));
         label_22->setFont(font);
-        lineEdit = new QLineEdit(tabDefault);
-        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-        lineEdit->setGeometry(QRect(150, 20, 51, 20));
+        lineEdit_defalt1 = new QLineEdit(tabDefault);
+        lineEdit_defalt1->setObjectName(QString::fromUtf8("lineEdit_defalt1"));
+        lineEdit_defalt1->setGeometry(QRect(150, 20, 51, 20));
+        lineEdit_defalt1->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         label_23 = new QLabel(tabDefault);
         label_23->setObjectName(QString::fromUtf8("label_23"));
         label_23->setGeometry(QRect(210, 20, 51, 21));
@@ -844,6 +836,9 @@ public:
         label_44->setObjectName(QString::fromUtf8("label_44"));
         label_44->setGeometry(QRect(210, 170, 51, 21));
         label_44->setFont(font);
+        pushButton_sz = new QPushButton(tabDefault);
+        pushButton_sz->setObjectName(QString::fromUtf8("pushButton_sz"));
+        pushButton_sz->setGeometry(QRect(350, 100, 75, 23));
         tabWidget->addTab(tabDefault, QString());
         tabValue = new QWidget();
         tabValue->setObjectName(QString::fromUtf8("tabValue"));
@@ -868,7 +863,7 @@ public:
 
         retranslateUi(Widget);
 
-        tabWidget->setCurrentIndex(3);
+        tabWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(Widget);
@@ -916,8 +911,7 @@ public:
         label_zxcl->setText(QApplication::translate("Widget", "\350\243\205\344\277\256\346\235\220\346\226\231", nullptr));
         label_28->setText(QApplication::translate("Widget", "\345\220\250", nullptr));
         groupBox_5->setTitle(QApplication::translate("Widget", "\350\256\241\347\256\227\345\217\202\346\225\260", nullptr));
-        label_15->setText(QApplication::translate("Widget", "\345\234\260\344\270\213\345\256\244\350\256\241\347\256\227\357\274\2101-\346\230\257\357\274\2140-\345\220\246\357\274\211", nullptr));
-        label_17->setText(QApplication::translate("Widget", "\345\273\272\347\255\221\351\253\230\345\272\246\357\274\2101-100m\344\273\245\344\270\213\357\274\2142-200m\344\273\245\344\270\213\357\274\2143-300m\344\273\245\344\270\213\357\274\2144-\350\207\252\345\256\232\344\271\211\357\274\211", nullptr));
+        label_17->setText(QApplication::translate("Widget", "\345\273\272\347\255\221\351\253\230\345\272\246\357\274\2100-\345\234\260\344\270\213\345\256\244\357\274\2141-100m\344\273\245\344\270\213\357\274\2142-200m\344\273\245\344\270\213\357\274\2143-300m\344\273\245\344\270\213\357\274\2144-\350\207\252\345\256\232\344\271\211\357\274\211", nullptr));
         lineEdit_jzgd->setPlaceholderText(QString());
         label_19->setText(QApplication::translate("Widget", "\345\267\245\346\234\237\346\227\266\351\225\277\357\274\210\345\244\251\357\274\214\345\207\217\345\216\273\345\201\207\346\234\237\357\274\211", nullptr));
         label_36->setText(QApplication::translate("Widget", "K\357\274\210\344\270\215\345\235\207\350\241\241\347\263\273\346\225\260\357\274\214\351\273\230\350\256\244\345\217\2261.3\357\274\211", nullptr));
@@ -933,7 +927,7 @@ public:
         label_7->setText(QApplication::translate("Widget", "\345\233\233      \345\205\266\344\273\226\351\233\266\346\230\237\346\235\220\346\226\231\345\217\212\350\276\205\345\212\251\345\267\245\344\275\234", nullptr));
         label_9->setText(QApplication::translate("Widget", "\344\272\224   \346\250\241\346\235\277\343\200\201\346\234\250\346\226\271\343\200\201\346\236\266\345\255\220\357\274\210\345\234\260\344\270\213\345\256\244\351\230\266\346\256\265\357\274\211", nullptr));
         label_11->setText(QApplication::translate("Widget", "\345\205\255    \346\250\241\346\235\277\343\200\201\346\234\250\346\226\271\343\200\201\346\236\266\345\255\220\357\274\210\345\241\224\346\245\274\351\230\266\346\256\265\357\274\211", nullptr));
-        label_13->setText(QApplication::translate("Widget", "\346\236\204\344\273\266\347\261\273\345\210\253         \346\236\204\344\273\266\345\220\215\347\247\260                \345\220\212\350\243\205\346\200\273\346\254\241\346\225\260        \346\211\200\345\215\240\346\257\224\344\276\213%", nullptr));
+        label_13->setText(QApplication::translate("Widget", "\346\236\204\344\273\266\347\261\273\345\210\253          \346\236\204\344\273\266\345\220\215\347\247\260                \345\220\212\350\243\205\346\200\273\346\254\241\346\225\260        \346\211\200\345\215\240\346\257\224\344\276\213", nullptr));
         label_29->setText(QApplication::translate("Widget", "Ni", nullptr));
         label_31->setText(QApplication::translate("Widget", "Qi", nullptr));
         label_33->setText(QApplication::translate("Widget", "qi", nullptr));
@@ -962,29 +956,30 @@ public:
         label_42->setText(QApplication::translate("Widget", "\345\210\206\351\222\237", nullptr));
         label_43->setText(QApplication::translate("Widget", "\345\220\212\350\243\205\346\227\266\351\227\264\357\274\210\345\205\255\347\261\273\357\274\211", nullptr));
         label_44->setText(QApplication::translate("Widget", "\345\210\206\351\222\237", nullptr));
+        pushButton_sz->setText(QApplication::translate("Widget", "\350\256\276\347\275\256", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tabDefault), QApplication::translate("Widget", "\351\273\230\350\256\244\345\217\202\346\225\260", nullptr));
-        plainTextEdit->setPlainText(QApplication::translate("Widget", "\347\211\210\346\234\254\357\274\232v0.2\346\265\213\350\257\225\347\211\210\n"
-"\346\234\254\350\275\257\344\273\266\344\273\205\344\276\233\350\256\241\347\256\227\345\220\212\350\243\205\345\210\206\346\236\220\345\217\202\350\200\203\357\274\214\346\255\243\345\274\217\347\211\210\344\274\232\345\212\240\345\205\245\346\233\264\345\244\232\345\212\237\350\203\275\357\274\214\345\246\202\346\240\271\346\215\256\345\267\245\346\234\237\350\256\241\347\256\227\345\241\224\345\220\212\343\200\202\n"
-"\346\234\254\350\275\257\344\273\266\344\273\205\344\276\233\344\270\255\345\233\275\345\273\272\347\255\221\344\270\200\345\261\200\357\274\210\351\233\206\345\233\242\357\274\211\346\234\211\351\231\220\345\205\254\345\217\270\345\215\216\345\215\227\345\214\272\345\237\237\345\205\254\345\217\270\345\206\205\351\203\250\344\275\277\347\224\250\357\274\214\345\210\207\345\213\277\345\244\226\344\274\240\343\200\202\n"
+        plainTextEdit->setPlainText(QApplication::translate("Widget", "\347\211\210\346\234\254\357\274\232v0.2.4\346\265\213\350\257\225\347\211\210\n"
+"\346\234\254\350\275\257\344\273\266\344\273\205\344\276\233\350\256\241\347\256\227\345\220\212\350\243\205\345\210\206\346\236\220\345\217\202\350\200\203\357\274\214\346\255\243\345\274\217\347\211\210\344\274\232\345\212\240\345\205\245\346\233\264\345\244\232\345\212\237\350\203\275\343\200\202\n"
+"\346\234\254\350\275\257\344\273\266\344\273\205\344\276\233\344\270\255\345\233\275\345\273\272\347\255\221\344\270\200\345\261\200\357\274\210\351\233\206\345\233\242\357\274\211\346\234\211\351\231\220\345\205\254\345\217\270\345\215\216\345\215\227\345\214\272\345\237\237\345\205\254\345\217\270\345\206\205\351\203\250\344\275\277\347\224\250\357\274\214\345\210\207\345\213\277\345\244\226\344\274\240\357\274\214\344\270\245\347\246\201\345\225\206\347\224\250\343\200\202\n"
 "\n"
 "\344\275\277\347\224\250\350\257\264\346\230\216\357\274\232\n"
-"    1\343\200\201\345\234"
-                        "\250\345\267\245\347\250\213\351\207\217\351\200\211\351\241\271\345\215\241\351\207\214\350\276\223\345\205\245\345\267\245\347\250\213\351\207\217\345\217\212\344\270\215\345\235\207\350\241\241\347\263\273\346\225\260\343\200\201\347\217\255\346\254\241\343\200\201\345\267\245\346\234\237\343\200\201\346\230\257\345\220\246\344\270\272\345\234\260\344\270\213\345\256\244\343\200\202\345\267\245\347\250\213\351\207\217\345\215\225\344\275\215\344\270\272\345\220\250\346\210\226\344\273\266\357\274\214\346\240\271\346\215\256\345\256\236\351\231\205\345\241\253\345\206\231\357\274\214\345\267\245\347\250\213\351\207\217\346\234\252\350\276\223\345\205\245\347\232\204\346\214\2110\350\256\241\347\256\227\343\200\202\n"
+"    1\343\200\201\345\234\250\345\267\245\347\250\213\351\207\217\351\200\211\351\241"
+                        "\271\345\215\241\351\207\214\350\276\223\345\205\245\345\267\245\347\250\213\351\207\217\345\217\212\344\270\215\345\235\207\350\241\241\347\263\273\346\225\260\343\200\201\347\217\255\346\254\241\343\200\201\345\267\245\346\234\237\343\200\201\346\230\257\345\220\246\344\270\272\345\234\260\344\270\213\345\256\244\343\200\202\345\267\245\347\250\213\351\207\217\345\215\225\344\275\215\344\270\272\345\220\250\346\210\226\344\273\266\357\274\214\346\240\271\346\215\256\345\256\236\351\231\205\345\241\253\345\206\231\357\274\214\345\267\245\347\250\213\351\207\217\346\234\252\350\276\223\345\205\245\347\232\204\346\214\2110\350\256\241\347\256\227\343\200\202\n"
 "    2\343\200\201\345\205\266\344\270\255\n"
-"    \344\270\215\345\235\207\350\241\241\347\263\273\346\225\260\344\270\200\350\210\254\345\217\2261.1~1.4\357\274\214\351\273\230\350\256\244\345\220\212\350\243\205\357\274\210\350\243\205\345\215\270\357\274\211\346\227\266\344\270\200\350\210\254"
-                        "\345\217\2261.3\343\200\202\n"
-"    \347\217\255\346\254\241\344\270\2728\345\260\217\346\227\266\344\270\200\347\217\255\357\274\214\346\240\271\346\215\256\345\256\236\351\231\205\346\203\205\345\206\265\346\216\250\347\256\227\347\217\255\346\254\241\357\274\214\351\273\230\350\256\244\345\217\2261\343\200\202\n"
-"    \345\267\245\346\234\237\345\215\225\344\275\215\344\270\272\345\244\251\357\274\214\345\207\217\345\216\273\345\201\207\346\234\237\343\200\202\n"
-"    \346\230\257\345\220\246\344\270\272\345\234\260\344\270\213\345\256\244\357\274\214\346\230\257\345\234\260\344\270\213\345\256\244\350\256\241\347\256\227\345\210\231\345\217\226\345\200\2741\357\274\214\344\270\215\346\230\257\345\234\260\344\270\213\345\256\244\350\256\241\347\256\227\345\217\226\345\200\2740\343\200\202\n"
+"        \344\270\215\345\235\207\350\241\241\347\263\273\346\225\260\344\270\200\350\210\254\345\217\2261.1~1.4\357\274\214\351\273\230\350\256\244\345\220\212\350\243\205\357\274\210\350\243\205\345\215\270\357\274\211\346\227\266\344\270\200\350\210\254\345\217\2261.3\343\200\202\n"
+"        \347\217\255\346"
+                        "\254\241\344\270\2728\345\260\217\346\227\266\344\270\200\347\217\255\357\274\214\346\240\271\346\215\256\345\256\236\351\231\205\346\203\205\345\206\265\346\216\250\347\256\227\347\217\255\346\254\241\357\274\214\351\273\230\350\256\244\345\217\2261\343\200\202\n"
+"        \345\267\245\346\234\237\345\215\225\344\275\215\344\270\272\345\244\251\357\274\214\345\207\217\345\216\273\345\201\207\346\234\237\343\200\202\n"
+"        \346\230\257\345\220\246\344\270\272\345\234\260\344\270\213\345\256\244\357\274\214\346\230\257\345\234\260\344\270\213\345\256\244\350\256\241\347\256\227\345\210\231\345\217\226\345\200\2741\357\274\214\344\270\215\346\230\257\345\234\260\344\270\213\345\256\244\350\256\241\347\256\227\345\217\226\345\200\2740\343\200\202\n"
 "    3\343\200\201\347\202\271\345\207\273\350\256\241\347\256\227\346\214\211\351\222\256\345\215\263\345\217\257\345\276\227\345\207\272\347\273\223\346\236\234\343\200\202\n"
-"    4\343\200\201Ni\344\270\272\350\256\241"
-                        "\347\256\227\345\276\227\345\207\272\347\232\204\345\241\224\345\220\212\351\234\200\346\261\202\351\207\217\343\200\202\n"
+"    4\343\200\201Ni\344\270\272\350\256\241\347\256\227\345\276\227\345\207\272\347\232"
+                        "\204\345\241\224\345\220\212\351\234\200\346\261\202\351\207\217\343\200\202\n"
 "    5\343\200\201\351\273\230\350\256\244\345\217\202\346\225\260\344\277\256\346\224\271\345\212\237\350\203\275\346\232\202\344\270\215\345\217\257\347\224\250\343\200\202\n"
 "\n"
 "\344\275\277\347\224\250\346\234\237\351\227\264\350\213\245\345\217\221\347\216\260\351\224\231\350\257\257\346\210\226\346\234\211\345\205\266\344\273\226\351\234\200\346\261\202\347\232\204\357\274\214\345\217\257\345\217\221\351\200\201\351\202\256\347\256\261jiaosss01@163.com\357\274\210\345\215\216\345\215\227\345\205\254\345\217\270GET\345\210\233\346\226\260\345\260\217\347\273\204\347\204\246\350\266\212\357\274\211\357\274\214\346\217\220\344\276\233\345\256\235\350\264\265\347\232\204\346\204\217\350\247\201\343\200\202", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tabValue), QApplication::translate("Widget", "\350\257\264\346\230\216", nullptr));
         label_45->setText(QString());
-        label_46->setText(QApplication::translate("Widget", "\345\241\224\345\220\212\345\210\206\346\236\220v0.2\346\265\213\350\257\225\347\211\210  -- \345\215\216\345\215\227\345\205\254\345\217\270GET\345\210\233\346\226\260\345\260\217\347\273\204  \351\227\256\351\242\230\345\217\215\351\246\210\357\274\232jiaosss01@163.com", nullptr));
+        label_46->setText(QApplication::translate("Widget", "\345\241\224\345\220\212\345\210\206\346\236\220v0.2.4\346\265\213\350\257\225\347\211\210  -- \345\215\216\345\215\227\345\205\254\345\217\270GET\345\210\233\346\226\260\345\260\217\347\273\204", nullptr));
     } // retranslateUi
 
 };

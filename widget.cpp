@@ -21,37 +21,12 @@ Widget::~Widget()
     delete ui;
 }
 
-//  显示默认数值（半成品）
-/*windows::windows(QWidget* parent)
-    :QWidget(parent)
-    , ui(new Ui::Widget)
-{
-    ui->setupUi(this);
-}
-
-
-windows::~windows()
-{
-    delete ui;
-}
-
-
-void windows::default_value()
-{
-    ui->lineEdit_k->setPlaceholderText("1.3");
-}
-*/
 
 
 void Widget::on_pushButton_js_clicked()
 {
-    bool ok;
-    QString temp_ni, temp_1bl, temp_2bl, temp_3bl, temp_4bl, temp_5bl, temp_6bl, temp_qi1, temp_qi2;
-    QString temp_1dz, temp_2dz, temp_3dz, temp_4dz, temp_5dz, temp_6dz, temp_k, temp_bi;
-    //QString value_k = ui->lineEdit_k->text();
-    //int valueInt_k = value_k.toInt(&ok);
-    //double area = valueInt_k*3;
-    //ui->lineEdit_ni->setText(temp_ni.setNum(area));
+    
+    
     //导入输入的数据
     QString value_gj = ui->lineEdit_gj->text();
     QString value_mb = ui->lineEdit_mb->text();
@@ -71,10 +46,7 @@ void Widget::on_pushButton_js_clicked()
     QString value_mq = ui->lineEdit_mq->text();
     QString value_zxcl = ui->lineEdit_zxcl->text();
     QString value_k = ui->lineEdit_k->text();
-    QString value_qi1 = ui->lineEdit_qi1->text();
-    QString value_qi2 = ui->lineEdit_qi2->text();
     QString value_bi = ui->lineEdit_bi->text();
-    QString value_dxs = ui->lineEdit_dxs->text();
     QString value_jzgd = ui->lineEdit_jzgd->text();
     QString value_gq = ui->lineEdit_gq->text();
     double value_5dz = 0;
@@ -103,28 +75,17 @@ void Widget::on_pushButton_js_clicked()
     int valueInt_gd = value_gd.toInt(&ok);
     int valueInt_mq = value_mq.toInt(&ok);
     int valueInt_zxcl = value_zxcl.toInt(&ok);
-    int valueInt_dxs = value_dxs.toInt(&ok);
     int valueInt_jzgd = value_jzgd.toInt(&ok);
     int valueInt_gq = value_gq.toInt(&ok);
-    int valueInt_qi2 = value_qi2.toInt(&ok);
     double valuedou_bi = value_bi.toDouble(&ok);
     double valuedou_k = value_k.toDouble(&ok);
     if (valuedou_k == 0)
-    {
         valuedou_k = 1.3;
-    }
-    /*else
-    {
-       int valueInt_k = value_k.toInt(&ok);
-    }*/
+    
+
     if (valuedou_bi == 0)
-    {
         valuedou_bi = 1;
-    }
-   /*else
-   // {
-   //     int valueInt_bi = value_bi.toInt(&ok);
-    }*/
+   
 
     //计算
     double value_dcgj = ceil(valueInt_gj / 0.9);
@@ -146,16 +107,16 @@ void Widget::on_pushButton_js_clicked()
     double value_dczxcl = ceil(valueInt_zxcl / 0.9);
 
     double value_1dz = value_dcgz;
-    double value_2dz = value_dcgl + value_dcgj;
+    double value_2dz = value_dcgl + value_dcgj + value_dcgb;
     double value_3dz = value_dcsb;
     double value_4dz = value_dcqtfz + value_dclxcl + value_dcyq + value_dcgd + value_dcmq + value_dczxcl;
-    if (valueInt_dxs == 1)   //地下室
+    if (valueInt_jzgd == 0)   //地下室
     {
-        value_5dz = value_dcmb + value_dcmf + value_dcnj + value_dcnjkj + value_dcwjkj;
+        value_5dz = value_dcmb + value_dcmf + value_dcnj + value_dcnjkj + value_dcwjkj + value_dcwj;
     }
     else   //地上
     {
-        value_6dz = value_dcmb + value_dcmf + value_dcnj + value_dcnjkj + value_dcwjkj;
+        value_6dz = value_dcmb + value_dcmf + value_dcnj + value_dcnjkj + value_dcwjkj + value_dcwj;
     }
     //计算所占比例
     double value_dz = value_1dz + value_2dz + value_3dz + value_4dz + value_5dz + value_6dz;
@@ -166,28 +127,27 @@ void Widget::on_pushButton_js_clicked()
     double value_6bl = value_6dz / value_dz;
     double value_1bl = 1 - value_2bl - value_3bl - value_4bl - value_5bl - value_6bl;
 
-    if (valueInt_dxs == 1)   //地下室
+    
+    switch (valueInt_jzgd)
+    {
+    case 0:
     {
         value_dzsj = 4.5;
     }
-    else   //地上
+    case 1:
     {
-        switch (valueInt_jzgd)
-        {
-        case 1:
-        {
-            value_dzsj = (25.5 * value_1bl) + (6 * value_2bl) + (10.5 * value_3bl) + (5 * value_4bl) + (6 * value_6bl);
-        }
-        case 2:
-        {
-            value_dzsj = (27.5 * value_1bl) + (7 * value_2bl) + (12.5 * value_3bl) + (5.5 * value_4bl) + (8 * value_6bl);
-        }
-        case 3:
-        {
-            value_dzsj = (29 * value_1bl) + (12 * value_2bl) + (12 * value_6bl) + (9.3 * value_3bl) + (14.5 * value_4bl);
-        }
-        }
+        value_dzsj = (25.5 * value_1bl) + (6 * value_2bl) + (10.5 * value_3bl) + (5 * value_4bl) + (6 * value_6bl);
     }
+    case 2:
+    {
+        value_dzsj = (27.5 * value_1bl) + (7 * value_2bl) + (12.5 * value_3bl) + (5.5 * value_4bl) + (8 * value_6bl);
+    }
+    case 3:
+    {
+        value_dzsj = (29 * value_1bl) + (12 * value_2bl) + (12 * value_6bl) + (9.3 * value_3bl) + (14.5 * value_4bl);
+    }
+    }
+    
 
     //计算Ni
     double value_qi5 = 8 * 0.8 * 60 / value_dzsj;
@@ -224,18 +184,12 @@ void Widget::on_pushButton_js_clicked()
     ui->tabWidget->setCurrentIndex(1);
 
 
-    
-
-
-
-
-
-
-
 }
 
 
-void Widget::default_value()
+void Widget::on_pushButton_sz_clicked()
 {
-    ui->lineEdit_ni->setPlaceholderText("1.3");
+    int value_defalt = 1;
+    ui->lineEdit_defalt1->setText(temp_defalt1.setNum(value_defalt));
+
 }

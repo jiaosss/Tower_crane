@@ -1,3 +1,9 @@
+//2021.10.4 v0.1
+//½¹Ô½
+
+
+
+
 #include "widget.h"
 #include <QApplication>
 #include <qsplashscreen.h>

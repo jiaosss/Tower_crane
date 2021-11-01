@@ -10,20 +10,6 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
 QT_END_NAMESPACE
 
-//  显示默认数值（半成品）
-/*class windows : public QWidget
-{
-    Q_OBJECT
-public:
-    windows(QWidget *parent = nullptr);
-    ~windows();
-
-public slots:
-    void default_value();
-private:
-    Ui::Widget *ui;
-};
-*/
 
 
 class Widget : public QWidget
@@ -34,16 +20,18 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
-    void default_value();
-
 
 private slots:
     void on_pushButton_js_clicked();
-    
+    void on_pushButton_sz_clicked();
 
 
 private:
     Ui::Widget *ui;
+
+    bool ok;
+    QString temp_ni, temp_1bl, temp_2bl, temp_3bl, temp_4bl, temp_5bl, temp_6bl, temp_qi1, temp_qi2;
+    QString temp_1dz, temp_2dz, temp_3dz, temp_4dz, temp_5dz, temp_6dz, temp_k, temp_bi, temp_defalt1;
 
 
 };
